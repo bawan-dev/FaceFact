@@ -18,11 +18,13 @@ Stage 2 - Core package foundation
 3. Added src/config.py for basic app settings.
 4. Ran small import tests to confirm everything works.
 
-Stage 3 - Input validation and image loading (in progress)
+Stage 3 — Input validation and image loading
 1. Added package markers for src/data and src/utils.
 2. Added a validation helper for image paths.
 3. Tested the validator using a fake path.
-4. Next: add the image loader.
+4. Added the image loader that returns RGB arrays.
+5. Ran a safe test to confirm the loader fails cleanly on a missing file.
+
 
 Notes
 - I update this file as I go.
