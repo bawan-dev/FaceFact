@@ -27,8 +27,13 @@ Stage 3 — Input validation and image loading
 
 Stage 4 — Minimal pipeline metadata
 1. Added src/pipeline package marker.
-2. Added a pipeline function that loads an image and returns height/width/channels.
+2. Added a pipeline function that loads an image and returns height/width channels.
 3. Tested the pipeline by generating a tiny test image.
+
+Stage 5 — Under-eye darkness (simple heuristic)
+1. Added analysis package marker for src/analysis.
+2. Created a basic under-eye darkness estimator using brightness comparison.
+3. Tested the estimator with a synthetic image.
 
 Notes
 - I update this file as I go.
