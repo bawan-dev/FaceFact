@@ -25,6 +25,10 @@ Stage 3 — Input validation and image loading
 4. Added the image loader that returns RGB arrays.
 5. Ran a safe test to confirm the loader fails cleanly on a missing file.
 
+Stage 4 — Minimal pipeline metadata
+1. Added src/pipeline package marker.
+2. Added a pipeline function that loads an image and returns height/width/channels.
+3. Tested the pipeline by generating a tiny test image.
 
 Notes
 - I update this file as I go.
