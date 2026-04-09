@@ -35,6 +35,10 @@ Stage 5 — Under-eye darkness (simple heuristic)
 2. Created a basic under-eye darkness estimator using brightness comparison.
 3. Tested the estimator with a synthetic image.
 
+Stage 6 — Basic skin feature analysis
+1. Added a skin_features analyzer using simple redness and texture heuristics.
+2. Tested it with a synthetic image.
+
 Notes
 - I update this file as I go.
 - I keep the wording simple on purpose
