@@ -39,6 +39,10 @@ Stage 6 — Basic skin feature analysis
 1. Added a skin_features analyzer using simple redness and texture heuristics.
 2. Tested it with a synthetic image.
 
+Stage 7 — Structured analysis report
+1. Added a report builder that combines metadata, under-eye, and skin features.
+2. Tested the report end-to-end on a synthetic image.
+
 Notes
 - I update this file as I go.
 - I keep the wording simple on purpose
